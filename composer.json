@@ -1,0 +1,26 @@
+{
+  "name": "green-spot/aproxi",
+  "description": "API proxy",
+  "keywords": ["api", "proxy", "headless"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/green-spot/aproxi",
+  "authors": [
+    {
+      "name": "green spot",
+      "email": "in.green.spot@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5 || ^8.0",
+    "guzzlehttp/guzzle": "^7.3"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aproxi\\": "src/Aproxi/"
+    }
+  }
+}
