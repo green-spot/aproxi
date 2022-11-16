@@ -1,6 +1,7 @@
 <?php
 
 namespace Aproxi;
+require_once __DIR__ . "/functions.php";
 
 class Aproxi {
   private static $singleton;
