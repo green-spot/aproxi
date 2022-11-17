@@ -1,6 +1,6 @@
 <?php
 
-require_once "loader.php";
+require_once __DIR__ . "/../vendor/autoload.php";
 
 Aproxi\Aproxi::initialize(include __DIR__ . "/settings.php");
 Aproxi\Aproxi::getInstance()->run();
