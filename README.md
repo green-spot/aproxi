@@ -13,7 +13,14 @@ First, download the library using Composer.
 $ composer require green-spot/aproxi
 ```
 
-Next, copy the file that will be the API endpoint to the document root.
+Next, copy the API endpoint directory to the document root.
 ```
 $ cp -r vendor/green-spot/aproxi/api ./api
 ```
+
+Edit the config file. (api/settings.php)
+
+
+## WordPress Module
+
+For WordPress modules, `/wp-json/wp/v2/` is mapped to `/api/wp/` by default.
