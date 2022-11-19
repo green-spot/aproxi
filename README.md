@@ -18,9 +18,15 @@ Next, copy the API endpoint directory to the document root.
 $ cp -r vendor/green-spot/aproxi/api ./api
 ```
 
-Edit the config file. (api/settings.php)
+Edit the config file. (`api/settings.php`)
 
 
 ## WordPress Module
 
 For WordPress modules, `/wp-json/wp/v2/` is mapped to `/api/wp/` by default.
+
+https://backend.example.com/wp/wp-json/wp/v2/posts<br>
+↓<br>
+https://frontend.example.com/api/wp/posts
+
+You can also change the endpoint URL(`api/wp/`) by editing `settings.php`.
